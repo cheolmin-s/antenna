@@ -1,0 +1,317 @@
+.visual{
+    position:relative;
+
+    .inner-box{
+        position:relative;
+    }
+}
+
+.about-visual-title{
+    font-size:62px;
+    font-weight:600;
+    line-height:1.2;
+    font-family:'Roboto', sans-serif;
+    position:absolute;
+    top:50%;
+    left:0;
+    transform:translateY(-50%);
+    -webkit-transform:translateY(-50%);
+    width:100%;
+    padding:0 20px;
+    box-sizing:border-box;
+    text-align:center;
+}
+
+.slide{
+
+    &-list{
+        height:100%;
+        position:relative;
+        overflow:hidden;
+
+        &-item{
+            height:100%;
+            position:absolute;
+            top:0;
+            left:0;
+
+            & img{
+                width:100%;
+                height:100%;
+
+            }
+        }
+    }
+}
+
+.good-text{
+    padding:120px 0;
+    text-align:center;
+
+    &-title{
+        font-size:50px;
+        font-weight:600;
+        font-family:'Roboto', sans-serif;
+    }
+
+    &-con{
+        margin-top:40px;
+        font-size:17px;
+        line-height:1.6;
+    }
+}
+
+.history-title{
+    margin-top:60px;
+
+    &-img{
+        position:relative;
+        font-size:0;
+        height:500px;
+
+        & img{
+            width:100%;
+            height:100%;
+        }
+
+        &-text{
+            position:absolute;
+            top:50%;
+            left:0;
+            transform:translateY(-50%);
+            -webkit-transform:translateY(-50%);
+            width:100%;
+            color:#fff;
+            text-align:center;
+
+            &-heading{
+                font-size:52px;
+                font-weight:600;
+                font-family: 'Roboto', sans-serif;
+            }
+
+            &-con{
+                font-size:17px;
+                margin-top:40px;
+                line-height:1.6;
+            }
+        }
+
+        &-logo{
+            position: absolute;
+            left:50%;
+            bottom:-62px;
+            margin-left:-62px;
+            width:124px;
+            height:124px;
+            color:#fff;
+            font-family: 'RockwellStd-Bold', sans-serif;
+            letter-spacing:1.5px;
+            font-size:16px;
+            line-height:124px;
+            text-align:center;
+            z-index:20;
+            background:url("../images/antenna_5-1/history_title_img.png")no-repeat;
+            background-size:cover;
+            -webkit-background-size:cover;
+        }
+    }
+}
+
+.history-wrap{
+
+    &-contents{
+        padding:62px 0 120px 0;
+        background:#fafafa;
+        position: relative;
+
+        &:before{
+            display:block;
+            content:"";
+            background:url("../images/antenna_logo.png")no-repeat center;
+            background-size:cover;
+            -webkit-background-size:cover;
+            position:absolute;
+            left:50%;
+            bottom:10px;
+            margin-left:-50px;
+            width:100px;
+            height:100px;
+        }
+
+        &:after{
+            display:block;
+            content:"";
+            clear:both;
+        }
+
+        &-list{
+            width:40%;
+
+            &:after{
+                display:block;
+                content:"";
+                clear:both;
+            }
+
+            &-item{
+                padding:20px;
+                margin-bottom:20px;
+            }
+
+            &-title{
+                font-weight:600;
+                margin-bottom:10px;
+                line-height:1.5;
+            }
+
+            &-date{
+                font-size:16px;
+                font-weight:500;
+                font-family:'Roboto', sans-serif;
+                color:#9e9e9e;
+                margin-bottom:20px;
+            }
+
+            &-img{
+
+                & img{
+                    width:100%;
+                    height:100%;
+                }
+            }
+        }
+
+        .left{
+            text-align:right;
+            float:left;
+            padding-top:80px;
+            position:relative;
+
+            &:after{
+                display:block;
+                content:"";
+                position:absolute;
+                top:0;
+                right:-25%;
+                margin-right:-1px;
+                width:1px;
+                height:100%;
+                background:#000;
+            }
+
+            &-yellow{
+                position: absolute;
+                right:-25%;
+                margin-right:-8px;
+                z-index:10;
+            }
+        }
+
+        .right{
+            float:right;
+            position:relative;
+
+            &-yellow{
+                position:absolute;
+                left:-25%;
+                margin-left:-8px;
+                z-index:10;
+                margin-top:5px;
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width:768px){
+
+    .contents{
+        padding-top:120px;
+    }
+
+    .about-visual-title{
+        font-size:26px;
+    }
+
+    .contents-wrap{
+        margin-bottom:0;
+
+        .title{
+            font-size:36px;
+        }
+
+        &-heading{
+            font-size:18px;
+            margin-top:25px;
+        }
+
+        &-txt{
+            font-size:14px;
+        }
+    }
+
+    .good-text{
+
+        &-title{
+            font-size:26px;
+        }
+
+        &-con{
+            font-size:12px;
+            margin-top:20px;
+        }
+    }
+
+    .history-title{
+        margin-top:0;
+    }
+
+    .history-title-img-text{
+        &-heading{
+            font-size:26px;
+        }
+
+        &-con{
+            font-size:12px;
+            margin-top:20px;
+        }
+
+
+    }
+
+    .history-title-img-logo{
+        width:62px;
+        height:62px;
+        font-size:8px;
+        line-height:62px;
+        position: absolute;
+        bottom: -31px;
+        margin-left:-31px;
+    }
+
+    .history-wrap-contents-list-item{
+        padding:0;
+    }
+
+    .history-wrap-contents-list{
+
+        &-title{
+            font-size:12px;
+        }
+
+        &-date{
+            font-size:12px;
+        }
+    }
+
+    .history-wrap-contents{
+        padding:31px 0 78px 0
+    }
+
+    .history-wrap-contents:before{
+        width:62px;
+        height:62px;
+        margin-left:-31px;
+    }
+}

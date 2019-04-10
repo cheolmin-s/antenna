@@ -1,0 +1,83 @@
+@font-face {
+    font-family:'NanumSquare';
+    src: url(../fonts/NanumSquareR.eot) format("woff");
+}
+
+@font-face {
+    font-family:'RockwellStd-Bold';
+    src: url(../fonts/rockweb.ttf) format("woff");
+}
+
+.inner-box{
+    width:calc(100% - 160px);
+    margin:0 auto;
+}
+
+.yellow{
+    display:inline-block;
+    width:15px;
+    height:15px;
+    background:url('../images/yellow_icon.png')no-repeat center;
+    background-size:cover;
+    margin-left:10px;
+}
+
+.container{
+    width:85%;
+    margin:0 auto;
+}
+
+.line{
+    position:fixed;
+    top:0;
+    left:80px;
+    width:calc(100% - 160px);
+    height:100%;
+    pointer-events:none;
+    z-index:50;
+
+
+    &-wrap{
+        position:relative;
+        width:85%;
+        height:100%;
+        margin:0 auto;
+
+        & span{
+            position:absolute;
+            display:inline-block;
+            width:1px;
+            height:100%;
+            background:#000;
+            top:0;
+            left:0;
+            opacity:0.1;
+
+            &:nth-child(1){
+                left:0;
+            }
+            &:nth-child(2){
+                left:20%;
+            }
+            &:nth-child(3){
+                left:40%;
+            }
+            &:nth-child(4){
+                left:60%;
+            }
+            &:nth-child(5){
+                left:80%;
+            }
+            &:nth-child(6){
+                left:100%;
+            }
+        }
+    }
+}
+
+.title{
+    font-size:80px;
+    font-weight:500;
+    font-family:'Roboto', sans-serif;
+}
+
