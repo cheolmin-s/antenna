@@ -4,7 +4,7 @@ $(function(){
 
     $('.contents-list-item').on('click',function(){
 
-        $('html,body').css({overflow:'hidden'}).bind('touchmove');
+        $('html,body,.popup').css({overflow:'hidden'}).bind('touchmove');
 
         $(this).children($popup).fadeIn();
 
@@ -14,7 +14,7 @@ $(function(){
 
         e.stopPropagation();
 
-        $('html,body').css({overflow:'visible'}).unbind('touchmove');
+        $('html,body,.popup').css({overflow:'visible'}).unbind('touchmove');
 
         $popup.fadeOut();
     });
