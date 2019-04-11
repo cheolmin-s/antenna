@@ -16,7 +16,7 @@ $(function(){
     $('.popupBg, .popup-wrap-close').on('click', function(e){
 
         e.stopPropagation();
-        
+
         $('html,body').css({overflow:'visible'}).unbind('touchmove mousewheel');
 
         $popup.fadeOut();
