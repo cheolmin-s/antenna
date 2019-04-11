@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8dcacf98-82a8-4161-840b-7750a71b950b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css_src/_antenna_1.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css_src/_antenna_1.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css_src/_antenna_2-1.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css_src/_antenna_2-1.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/antenna_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/antenna_1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/antenna_5-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/antenna_5-1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html_src/antenna_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/html_src/antenna_1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html_src/antenna_5-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/html_src/antenna_5-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/antenna_1_mobile_visual.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/antenna_5-1/antenna_5-1-about_visual.jpg" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,22 +27,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html_src/antenna_1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="74" lean-forward="true" selection-start-line="10" selection-start-column="74" selection-end-line="10" selection-end-column="74" />
+            <state relative-caret-position="152">
+              <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gulpfile.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css_src/_antenna_2-1.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="8379">
-              <caret line="521" selection-start-line="521" selection-end-line="521" />
+            <state relative-caret-position="251">
+              <caret line="521" column="26" selection-start-line="521" selection-start-column="26" selection-end-line="521" selection-end-column="26" />
               <folding>
                 <element signature="e#9#931#0" />
                 <element signature="e#113#199#0" />
@@ -61,11 +64,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html_src/antenna_2-1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="717">
+              <caret line="160" column="56" lean-forward="true" selection-start-line="160" selection-start-column="56" selection-end-line="160" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css_src/_antenna_1.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
-              <caret line="588" column="12" lean-forward="true" selection-start-line="588" selection-start-column="14" selection-end-line="595" selection-end-column="12" />
+            <state relative-caret-position="-4404">
+              <caret line="178" column="26" lean-forward="true" selection-start-line="178" selection-start-column="26" selection-end-line="178" selection-end-column="26" />
               <folding>
                 <element signature="e#8184#8226#0" />
                 <element signature="e#9253#10609#0" />
@@ -79,7 +91,7 @@
         <entry file="file://$PROJECT_DIR$/html/antenna_1.html">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret lean-forward="true" selection-end-line="85" selection-end-column="7" />
+              <caret lean-forward="true" selection-end-line="99" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -96,8 +108,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html_src/antenna_5-1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="589">
-              <caret line="60" column="106" selection-start-line="60" selection-start-column="106" selection-end-line="60" selection-end-column="106" />
+            <state relative-caret-position="247">
+              <caret line="42" column="10" lean-forward="true" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="10" />
               <folding>
                 <element signature="n#section#1;n#!!top" />
               </folding>
@@ -138,7 +150,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/html_src/antenna_5-1.html" />
         <option value="$PROJECT_DIR$/css_src/_commons.scss" />
         <option value="$PROJECT_DIR$/css_src/_antenna_5-1.scss" />
         <option value="$PROJECT_DIR$/html_src/antenna_6-1.html" />
@@ -148,11 +159,12 @@
         <option value="$PROJECT_DIR$/html_src/antenna_4-1.html" />
         <option value="$PROJECT_DIR$/css_src/_antenna_4-1.scss" />
         <option value="$PROJECT_DIR$/css_src/_antenna_3-1.scss" />
-        <option value="$PROJECT_DIR$/css_src/_antenna_2-1.scss" />
         <option value="$PROJECT_DIR$/html/antenna_1.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/html_src/antenna_1.html" />
+        <option value="$PROJECT_DIR$/html_src/antenna_5-1.html" />
         <option value="$PROJECT_DIR$/css_src/_antenna_1.scss" />
+        <option value="$PROJECT_DIR$/css_src/_antenna_2-1.scss" />
       </list>
     </option>
   </component>
@@ -200,6 +212,17 @@
               <item name="antenna" type="462c0819:PsiDirectoryNode" />
               <item name="html_src" type="462c0819:PsiDirectoryNode" />
               <item name="_include" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="antenna" type="b2602c69:ProjectViewProjectNode" />
+              <item name="antenna" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="antenna" type="b2602c69:ProjectViewProjectNode" />
+              <item name="antenna" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="antenna_5-1" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -275,20 +298,20 @@
       <workItem from="1554937795815" duration="727000" />
       <workItem from="1554938847723" duration="886000" />
       <workItem from="1554940002917" duration="3609000" />
-      <workItem from="1554946689866" duration="32000" />
+      <workItem from="1554946689866" duration="789000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17794000" />
+    <option name="totallyTimeSpent" value="18551000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.489154" visible="true" weight="0.26817703" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48911652" visible="true" weight="0.26817703" />
       <window_info id="Structure" order="1" sideWeight="0.50625" side_tool="true" weight="0.26868045" />
-      <window_info id="Gulp" order="2" sideWeight="0.51084596" side_tool="true" visible="true" weight="0.26817703" />
+      <window_info id="Gulp" order="2" sideWeight="0.5108835" side_tool="true" weight="0.26817703" />
       <window_info id="npm" order="3" side_tool="true" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -307,14 +330,14 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49167734" visible="true" weight="0.26868045" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48911652" visible="true" weight="0.26817703" />
       <window_info id="Structure" order="1" sideWeight="0.50625" side_tool="true" weight="0.26868045" />
-      <window_info id="Gulp" order="2" sideWeight="0.50832266" side_tool="true" weight="0.1780822" />
+      <window_info id="Gulp" order="2" sideWeight="0.5108835" side_tool="true" visible="true" weight="0.26817703" />
       <window_info id="npm" order="3" side_tool="true" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947312" weight="0.15292841" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947312" visible="true" weight="0.15292841" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -386,13 +409,6 @@
     <entry file="file://$PROJECT_DIR$/html/antenna_3-1.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/html_src/antenna_2-1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3040">
-          <caret line="160" column="56" lean-forward="true" selection-start-line="160" selection-start-column="56" selection-end-line="160" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html_src/antenna_3-1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1534">
@@ -405,22 +421,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css_src/_antenna_2-1.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8379">
-          <caret line="521" selection-start-line="521" selection-end-line="521" />
-          <folding>
-            <element signature="e#9#931#0" />
-            <element signature="e#113#199#0" />
-            <element signature="e#215#368#0" />
-            <element signature="e#387#559#0" />
-            <element signature="e#574#727#0" />
-            <element signature="e#2407#2727#0" />
-            <element signature="e#6033#6458#0" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css_src/_antenna_3-1.scss">
       <provider selected="true" editor-type-id="text-editor">
@@ -436,17 +436,7 @@
     <entry file="file://$PROJECT_DIR$/html/antenna_1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret lean-forward="true" selection-end-line="85" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html_src/antenna_5-1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="60" column="106" selection-start-line="60" selection-start-column="106" selection-end-line="60" selection-end-column="106" />
-          <folding>
-            <element signature="n#section#1;n#!!top" />
-          </folding>
+          <caret lean-forward="true" selection-end-line="99" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -471,21 +461,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/html_src/antenna_2-1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="717">
+          <caret line="160" column="56" lean-forward="true" selection-start-line="160" selection-start-column="56" selection-end-line="160" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/html_src/antenna_1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="74" lean-forward="true" selection-start-line="10" selection-start-column="74" selection-end-line="10" selection-end-column="74" />
+        <state relative-caret-position="152">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html_src/antenna_5-1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="42" column="10" lean-forward="true" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="10" />
+          <folding>
+            <element signature="n#section#1;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css_src/_antenna_1.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="588" column="12" lean-forward="true" selection-start-line="588" selection-start-column="14" selection-end-line="595" selection-end-column="12" />
+        <state relative-caret-position="-4404">
+          <caret line="178" column="26" lean-forward="true" selection-start-line="178" selection-start-column="26" selection-end-line="178" selection-end-column="26" />
           <folding>
             <element signature="e#8184#8226#0" />
             <element signature="e#9253#10609#0" />
             <element signature="e#10663#12173#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css_src/_antenna_2-1.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="521" column="26" selection-start-line="521" selection-start-column="26" selection-end-line="521" selection-end-column="26" />
+          <folding>
+            <element signature="e#9#931#0" />
+            <element signature="e#113#199#0" />
+            <element signature="e#215#368#0" />
+            <element signature="e#387#559#0" />
+            <element signature="e#574#727#0" />
+            <element signature="e#2407#2727#0" />
+            <element signature="e#6033#6458#0" />
           </folding>
         </state>
       </provider>
