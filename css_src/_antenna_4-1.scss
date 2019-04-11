@@ -48,9 +48,11 @@
 
         &-inner{
             position:absolute;
-            top:36%;
+            top:50%;
             width:100%;
+            transform:translateY(-50%);
             transition:all .2s ease-out;
+            -webkit-transform:translateY(-50%);
             -webkit-transition:all .2s ease-out;
 
         }
@@ -68,51 +70,40 @@
             font-size:16px;
             font-family:'Roboto', sans-serif;
             margin-top:30px;
-        }
-    }
-}
-
-.popup-wrap-album{
-    margin-top:50px;
-
-    &-title{
-        font-size:30px;
-        font-weight:600;
-        font-family:'Roboto', sans-serif;
-        margin-bottom:30px;
-    }
-
-    &-list{
-        width:50%;
-        height:100%;
-
-        & iframe{
-            width:100%;
-            height:100%;
-        }
-    }
-}
-
-@media screen and (max-width:768px){
-
-    .artists-text{
-
-        &-name{
-            font-size:16px;
-        }
-
-        &-heading{
-            font-size:15px;
-        }
-
-        &-title{
-            font-size:14px;
-            margin-top:14px;
 
             .yellow{
-                width:12px;
-                height:12px;
+                width:10px;
+                height:10px;
             }
         }
     }
 }
+
+@media screen and ( max-width:780px){
+    
+}
+
+
+//@media screen and (max-width:768px){
+//
+//    .artists-text{
+//
+//        &-name{
+//            font-size:16px;
+//        }
+//
+//        &-heading{
+//            font-size:15px;
+//        }
+//
+//        &-title{
+//            font-size:14px;
+//            margin-top:14px;
+//
+//            .yellow{
+//                width:12px;
+//                height:12px;
+//            }
+//        }
+//    }
+//}
