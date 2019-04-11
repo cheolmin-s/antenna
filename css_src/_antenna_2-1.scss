@@ -73,7 +73,7 @@
             left:0;
             width:100%;
             height:100%;
-            background:rgba(0,0,0,0.5);
+            background:rgba(0,0,0,0.8);
             z-index:20;
             display:none;
 
@@ -102,6 +102,7 @@
             &-wrap{
                 padding:40px 30px;
                 font-family:'NanumSquare', sans-serif;
+                position:relative;
 
                 &-title{
                     display:inline-block;
@@ -154,6 +155,46 @@
                         width:100%;
                     }
                 }
+
+                &-close{
+                    position:absolute;
+                    top:36px;
+                    right:30px;
+                    width:30px;
+                    height:30px;
+
+                    .btnClose{
+                        background:0;
+                        border:0;
+                        padding:0;
+                        position:relative;
+                        width:30px;
+                        cursor:pointer;
+
+                        & span{
+                            display:block;
+                            width:30px;
+                            height:5px;
+                            position:absolute;
+                            top:0;
+                            left:0;
+                            background:#fde700;
+                            border-radius:50px;
+                            -webkit-border-radius:50px;
+
+                            &:nth-child(1){
+                                transform:rotate(45deg);
+                                -webkit-transform:rotate(45deg);
+                            }
+
+                            &:nth-child(2){
+                                transform:rotate(-45deg);
+                                -webkit-transform:rotate(-45deg);
+                            }
+                        }
+                    }
+                }
+
             }
         }
 
@@ -498,8 +539,47 @@
 
                     &-wrap{
                         padding:30px 20px;
-                    }
 
+                        &-close{
+                            position:absolute;
+                            top:26px;
+                            right:20px;
+                            width:30px;
+                            height:30px;
+
+                            .btnClose{
+                                background:0;
+                                border:0;
+                                padding:0;
+                                position:relative;
+                                width:30px;
+                                cursor:pointer;
+
+                                & span{
+                                    display:block;
+                                    width:30px;
+                                    height:5px;
+                                    position:absolute;
+                                    top:0;
+                                    left:0;
+                                    background:#fde700;
+                                    border-radius:50px;
+                                    -webkit-border-radius:50px;
+
+                                    &:nth-child(1){
+                                        transform:rotate(45deg);
+                                        -webkit-transform:rotate(45deg);
+                                    }
+
+                                    &:nth-child(2){
+                                        transform:rotate(-45deg);
+                                        -webkit-transform:rotate(-45deg);
+                                    }
+                                }
+                            }
+                        }
+
+                    }
                 }
             }
         }
@@ -519,6 +599,10 @@
 
                 .popup{
                     width:90%;
+                    height:100%;
+                    top:0;
+                    transform:translateX(-50%);
+                    -webkit-transform:translateX(-50%);
 
                     &-wrap{
 
