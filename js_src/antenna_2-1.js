@@ -2,9 +2,11 @@ $(function(){
 
     var $popup = $('.popupBg, .popup');
 
-    $('.contents-list-item').on('click',function(){
+    $('.contents-list-item').on('click',function(e){
 
-        $('html,body,.popup').css({overflow:'hidden'}).bind('touchmove');
+        e.preventDefault();
+        
+        $('html,body').css({overflow:'hidden'}).bind('touchmove');
 
         $(this).children($popup).fadeIn();
 
@@ -14,7 +16,7 @@ $(function(){
 
         e.stopPropagation();
 
-        $('html,body,.popup').css({overflow:'visible'}).unbind('touchmove');
+        $('html,body').css({overflow:'visible'}).unbind('touchmove');
 
         $popup.fadeOut();
     });

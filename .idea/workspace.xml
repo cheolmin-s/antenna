@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8dcacf98-82a8-4161-840b-7750a71b950b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css_src/_antenna_1.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css_src/_antenna_1.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css_src/_antenna_2-1.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css_src/_antenna_2-1.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js_src/antenna_2-1.js" beforeDir="false" afterPath="$PROJECT_DIR$/js_src/antenna_2-1.js" afterDir="false" />
     </list>
@@ -34,7 +31,7 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css_src/_antenna_1.scss">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="437">
@@ -59,10 +56,16 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/html_src/antenna_2-1.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-119">
-                  <caret line="159" column="38" selection-start-line="159" selection-start-column="38" selection-end-line="159" selection-end-column="38" />
+                <state relative-caret-position="693">
+                  <caret line="18" column="34" lean-forward="true" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+                  <caret line="55" column="34" lean-forward="true" selection-start-line="55" selection-start-column="34" selection-end-line="55" selection-end-column="34" />
+                  <caret line="92" column="34" lean-forward="true" selection-start-line="92" selection-start-column="34" selection-end-line="92" selection-end-column="34" />
+                  <caret line="127" column="34" lean-forward="true" selection-start-line="127" selection-start-column="34" selection-end-line="127" selection-end-column="34" />
+                  <caret line="164" column="34" lean-forward="true" selection-start-line="164" selection-start-column="34" selection-end-line="164" selection-end-column="34" />
+                  <caret line="171" column="34" lean-forward="true" selection-start-line="171" selection-start-column="34" selection-end-line="171" selection-end-column="34" />
+                  <caret line="178" column="34" lean-forward="true" selection-start-line="178" selection-start-column="34" selection-end-line="178" selection-end-column="34" />
+                  <caret line="185" column="34" lean-forward="true" selection-start-line="185" selection-start-column="34" selection-end-line="185" selection-end-column="34" />
                   <folding>
-                    <element signature="n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" />
                     <element signature="n#p#0;n#div#0;n#div#1;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" />
                     <element signature="n#p#0;n#div#0;n#div#1;n#li#1;n#ul#0;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" />
                   </folding>
@@ -132,11 +135,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/js_src/antenna_2-1.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="380">
-                  <caret line="20" column="3" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+                <state relative-caret-position="133">
+                  <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
                 </state>
               </provider>
             </entry>
@@ -182,6 +185,7 @@
       <find>../</find>
       <find>frameborder</find>
       <find>popup-wrap-img</find>
+      <find>contents-list-link</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -200,16 +204,16 @@
         <option value="$PROJECT_DIR$/css_src/_antenna_4-1.scss" />
         <option value="$PROJECT_DIR$/css_src/_antenna_5-1.scss" />
         <option value="$PROJECT_DIR$/css_src/_antenna_6-1.scss" />
-        <option value="$PROJECT_DIR$/html_src/antenna_2-1.html" />
         <option value="$PROJECT_DIR$/html_src/antenna_3-1.html" />
         <option value="$PROJECT_DIR$/html_src/antenna_4-1.html" />
-        <option value="$PROJECT_DIR$/js_src/antenna_2-1.js" />
         <option value="$PROJECT_DIR$/css_src/_antenna_2-1.scss" />
         <option value="$PROJECT_DIR$/css_src/_antenna_1.scss" />
+        <option value="$PROJECT_DIR$/html_src/antenna_2-1.html" />
+        <option value="$PROJECT_DIR$/js_src/antenna_2-1.js" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="639" />
     <option name="y" value="148" />
     <option name="width" value="1296" />
@@ -344,25 +348,25 @@
       <workItem from="1554937795815" duration="727000" />
       <workItem from="1554938847723" duration="886000" />
       <workItem from="1554940002917" duration="3609000" />
-      <workItem from="1554946689866" duration="7639000" />
+      <workItem from="1554946689866" duration="8619000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25401000" />
+    <option name="totallyTimeSpent" value="26381000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4865557" visible="true" weight="0.26817703" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4865557" visible="true" weight="0.26817703" />
       <window_info id="Structure" order="1" sideWeight="0.50625" side_tool="true" weight="0.26868045" />
       <window_info id="Gulp" order="2" sideWeight="0.5134443" side_tool="true" visible="true" weight="0.26817703" />
       <window_info id="npm" order="3" side_tool="true" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49947312" visible="true" weight="0.15292841" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947312" visible="true" weight="0.15292841" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -497,18 +501,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html_src/antenna_2-1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-119">
-          <caret line="159" column="38" selection-start-line="159" selection-start-column="38" selection-end-line="159" selection-end-column="38" />
-          <folding>
-            <element signature="n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" />
-            <element signature="n#p#0;n#div#0;n#div#1;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" />
-            <element signature="n#p#0;n#div#0;n#div#1;n#li#1;n#ul#0;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html_src/antenna_3-1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
@@ -574,13 +566,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js_src/antenna_2-1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="3" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css_src/_antenna_1.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
@@ -589,6 +574,31 @@
             <element signature="e#8184#8226#0" />
             <element signature="e#10663#12173#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html_src/antenna_2-1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="693">
+          <caret line="18" column="34" lean-forward="true" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+          <caret line="55" column="34" lean-forward="true" selection-start-line="55" selection-start-column="34" selection-end-line="55" selection-end-column="34" />
+          <caret line="92" column="34" lean-forward="true" selection-start-line="92" selection-start-column="34" selection-end-line="92" selection-end-column="34" />
+          <caret line="127" column="34" lean-forward="true" selection-start-line="127" selection-start-column="34" selection-end-line="127" selection-end-column="34" />
+          <caret line="164" column="34" lean-forward="true" selection-start-line="164" selection-start-column="34" selection-end-line="164" selection-end-column="34" />
+          <caret line="171" column="34" lean-forward="true" selection-start-line="171" selection-start-column="34" selection-end-line="171" selection-end-column="34" />
+          <caret line="178" column="34" lean-forward="true" selection-start-line="178" selection-start-column="34" selection-end-line="178" selection-end-column="34" />
+          <caret line="185" column="34" lean-forward="true" selection-start-line="185" selection-start-column="34" selection-end-line="185" selection-end-column="34" />
+          <folding>
+            <element signature="n#p#0;n#div#0;n#div#1;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" />
+            <element signature="n#p#0;n#div#0;n#div#1;n#li#1;n#ul#0;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js_src/antenna_2-1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
         </state>
       </provider>
     </entry>
