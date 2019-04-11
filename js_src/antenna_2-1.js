@@ -4,6 +4,8 @@ $(function(){
 
     $('.contents-list-item').on('click',function(){
 
+        $('body').css({overflow:'hidden'});
+
         $(this).children($popup).fadeIn();
 
     });
@@ -11,6 +13,8 @@ $(function(){
     $('.popupBg').on('click', function(e){
 
         e.stopPropagation();
+
+        $('body').css({overflow:'visible'});
 
         $popup.fadeOut();
     });
