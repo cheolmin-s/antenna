@@ -1,4 +1,45 @@
 $(function(){
+
+    function pageCheck(){
+
+        if( gnb === "sub1" ){
+
+            $('.gnb-list-link').eq(0).addClass('on');
+
+        } else if ( gnb === "sub2"){
+
+            $('.gnb-list-link').eq(1).addClass('on');
+
+        } else if ( gnb === "sub3" ){
+
+            $('.gnb-list-link').eq(2).addClass('on');
+
+        } else if ( gnb === "sub4" ){
+
+            $('.gnb-list-link').eq(3).addClass('on');
+
+        } else if ( gnb === "sub5" ){
+
+            $('.gnb-list-link').eq(4).addClass('on');
+
+        } else if ( gnb === "sub6" ){
+
+            $('.gnb-list-link').eq(5).addClass('on');
+
+        }
+
+    }
+
+    pageCheck()
+
+    $('.gnb-list-item').on('click',function(){
+
+        $(this).removeClass('on');
+
+        $(this).children('.gnb-list-link').addClass('on');
+
+    });
+
     $('.share-button').on('click',function(){
         $('.share-button').toggleClass('on');
     });
@@ -23,5 +64,6 @@ $(function(){
     $('.share-button').on('click',function(){
         $('.sns').toggleClass('on');
     });
+
 
 });

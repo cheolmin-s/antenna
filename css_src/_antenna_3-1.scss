@@ -16,7 +16,6 @@
 
             .releases-text{
                 opacity:1;
-                background:rgba(0,0,0,0.8);
             }
         }
     }
@@ -34,6 +33,7 @@
     height:100%;
     color:#fff;
     padding:20px;
+    background:rgba(0,0,0,0.7);
     box-sizing:border-box;
     opacity:0;
     transition:all .2s ease-out;
@@ -335,6 +335,18 @@
                             &-title{
                                 font-size:15px;
                             }
+                        }
+                    }
+                }
+
+                .releases{
+
+                    &-text{
+                        opacity:1;
+                        background:rgba(0,0,0,0.4);
+
+                        &-title{
+                            color:#fff;
                         }
                     }
                 }

@@ -573,9 +573,27 @@
 
         &-list{
             padding:0;
+            background:#fff;
 
             &-item{
                 width:100%;
+
+                &.news{
+                    margin-bottom:20px;
+                    background:#fafafa;
+
+                    &:hover{
+                        background:#fafafa;
+
+                        .contents-list-title{
+                            color:#9e9e9e;
+                        }
+                        .yellow{
+                           background:#fde700;
+                            transition:none;
+                        }
+                    }
+                }
 
                 .popup{
                     width:90%;

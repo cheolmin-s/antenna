@@ -240,6 +240,15 @@
                             opacity:1;
                         }
                     }
+
+                    &.on{
+                        color:#fde700;
+
+                        .yellow{
+                            opacity:1;
+                        }
+
+                    }
                 }
             }
 
@@ -541,6 +550,7 @@
                             bottom:5px;
                             right:3px;
                         }
+
                     }
                 }
 

@@ -78,3 +78,21 @@
         }
     }
 }
+
+@media screen and ( max-width:560px){
+
+    .artists{
+
+        &-link{
+
+            &-title{
+                display:none;
+            }
+        }
+
+        &-text{
+            opacity:1;
+            background:rgba(0,0,0,0.2);
+        }
+    }
+}
