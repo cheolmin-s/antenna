@@ -4,12 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nuxt",
-    "build": "nuxt build",
-    "start": "nuxt start",
-    "generate": "nuxt generate",
-    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
@@ -22,5 +17,13 @@
     "gulp-sourcemaps": "^2.6.0",
     "gulp-watch": "^4.3.11",
     "push-dir": "^0.4.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://cheolmin-s.github.io/antenna.git"
+  },
+  "bugs": {
+    "url": "https://cheolmin-s.github.io/antenna/issues"
+  },
+  "homepage": "https://cheolmin-s.github.io/antenna/"
 }
